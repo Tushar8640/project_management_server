@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "email": "tusar@gmail.com",
+      "password": "$2a$10$.bLgCDhpCqUvchT0M7tG0e2e20cwdI7PdYaLiWYqc.khuMP1IwX7e",
+      "name": "Tusar",
+      "img": "https://i.ibb.co/gw6fR7Z/images.jpg",
+      "id": 1
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "$2a$10$.bLgCDhpCqUvchT0M7tG0e2e20cwdI7PdYaLiWYqc.khuMP1IwX7e",
+      "name": "User2",
+      "img": "https://i.ibb.co/p6qxvVf/126045930-vector-illustration-of-avatar-and-dummy-sign-collection-of-avatar-and-image-stock-symbol-f.webp",
+      "id": 3
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "$2a$10$.bLgCDhpCqUvchT0M7tG0e2e20cwdI7PdYaLiWYqc.khuMP1IwX7e",
+      "name": "User3",
+      "img": "https://i.ibb.co/mbQzDG5/126045801-isolated-object-of-avatar-and-dummy-icon-collection-of-avatar-and-image-vector-icon-for-st.webp",
+      "id": 4
+    },
+    {
+      "email": "user4@gmail.com",
+      "password": "$2a$10$.bLgCDhpCqUvchT0M7tG0e2e20cwdI7PdYaLiWYqc.khuMP1IwX7e",
+      "name": "User4",
+      "img": "https://i.ibb.co/3S1h6h1/images.png",
+      "id": 5
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$.bLgCDhpCqUvchT0M7tG0e2e20cwdI7PdYaLiWYqc.khuMP1IwX7e",
+      "name": "test",
+      "img": "https://i.ibb.co/3S1h6h1/images.png",
+      "id": 6
+    }
+  ],
+  "teams": [
+    {
+      "category": "dev",
+      "description": "dfs",
+      "color": "green",
+      "status": "backlog",
+      "createBy": {
+        "email": "tusar@gmail.com",
+        "name": "Tusar",
+        "img": "https://i.ibb.co/gw6fR7Z/images.jpg",
+        "id": 1
+      },
+      "members": [
+        {
+          "name": "Tusar",
+          "email": "tusar@gmail.com",
+          "img": "https://i.ibb.co/gw6fR7Z/images.jpg"
+        },
+        {
+          "name": "User2",
+          "email": "user2@gmail.com",
+          "img": "https://i.ibb.co/p6qxvVf/126045930-vector-illustration-of-avatar-and-dummy-sign-collection-of-avatar-and-image-stock-symbol-f.webp"
+        }
+      ],
+      "timestamp": 1664263419611,
+      "id": 1
+    },
+    {
+      "category": "Testing",
+      "description": "This team ",
+      "color": "yellow",
+      "status": "backlog",
+      "createBy": {
+        "email": "user3@gmail.com",
+        "name": "User3",
+        "img": "https://i.ibb.co/mbQzDG5/126045801-isolated-object-of-avatar-and-dummy-icon-collection-of-avatar-and-image-vector-icon-for-st.webp",
+        "id": 4
+      },
+      "members": [
+        {
+          "name": "User3",
+          "email": "user3@gmail.com",
+          "img": "https://i.ibb.co/mbQzDG5/126045801-isolated-object-of-avatar-and-dummy-icon-collection-of-avatar-and-image-vector-icon-for-st.webp"
+        },
+        {
+          "name": "Tusar",
+          "email": "tusar@gmail.com",
+          "img": "https://i.ibb.co/gw6fR7Z/images.jpg"
+        },
+        {
+          "name": "User2",
+          "email": "user2@gmail.com",
+          "img": "https://i.ibb.co/p6qxvVf/126045930-vector-illustration-of-avatar-and-dummy-sign-collection-of-avatar-and-image-stock-symbol-f.webp"
+        },
+        {
+          "name": "User4",
+          "email": "user4@gmail.com",
+          "img": "https://i.ibb.co/3S1h6h1/images.png"
+        },
+        {
+          "name": "test",
+          "email": "test@gmail.com",
+          "img": "https://i.ibb.co/3S1h6h1/images.png"
+        }
+      ],
+      "timestamp": 1664275801292,
+      "id": 2
+    }
+  ],
+  "projects": [
+    {
+      "title": "Design figma file",
+      "team": {
+        "teamId": 1,
+        "teamName": "dev",
+        "color": "green"
+      },
+      "status": "backlog",
+      "members": [
+        {
+          "name": "Tusar",
+          "email": "tusar@gmail.com",
+          "img": "https://i.ibb.co/gw6fR7Z/images.jpg"
+        },
+        {
+          "name": "User2",
+          "email": "user2@gmail.com",
+          "img": "https://i.ibb.co/p6qxvVf/126045930-vector-illustration-of-avatar-and-dummy-sign-collection-of-avatar-and-image-stock-symbol-f.webp"
+        }
+      ],
+      "timestamp": 1664267766739,
+      "createdBy": "tusar@gmail.com",
+      "id": 1
+    },
+    {
+      "title": "FDf",
+      "team": {
+        "teamId": 2,
+        "teamName": "Testing",
+        "color": "yellow"
+      },
+      "status": "backlog",
+      "members": [
+        {
+          "name": "User3",
+          "email": "user3@gmail.com",
+          "img": "https://i.ibb.co/mbQzDG5/126045801-isolated-object-of-avatar-and-dummy-icon-collection-of-avatar-and-image-vector-icon-for-st.webp"
+        },
+        {
+          "name": "Tusar",
+          "email": "tusar@gmail.com",
+          "img": "https://i.ibb.co/gw6fR7Z/images.jpg"
+        },
+        {
+          "name": "User2",
+          "email": "user2@gmail.com",
+          "img": "https://i.ibb.co/p6qxvVf/126045930-vector-illustration-of-avatar-and-dummy-sign-collection-of-avatar-and-image-stock-symbol-f.webp"
+        },
+        {
+          "name": "User4",
+          "email": "user4@gmail.com",
+          "img": "https://i.ibb.co/3S1h6h1/images.png"
+        },
+        {
+          "name": "test",
+          "email": "test@gmail.com",
+          "img": "https://i.ibb.co/3S1h6h1/images.png"
+        }
+      ],
+      "timestamp": 1664276192442,
+      "createdBy": "tusar@gmail.com",
+      "id": 2
+    }
+  ]
+}
